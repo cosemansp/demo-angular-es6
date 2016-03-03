@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ng2</title>
+    </head>
+    <body ng-app="myApp">
+
+        <div ng-controller="MyController as vm">
+            {{vm.message}}
+        </div>
+
+        <my-component></my-component>
+
+        <script src="bundle/main.js"></script>
+    </body>
+</html>
